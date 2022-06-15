@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#galeria {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#galeria img {
+    max-width: 100%;
+    display: block;
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}

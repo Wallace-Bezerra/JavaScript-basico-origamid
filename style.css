@@ -1,0 +1,7 @@
+.circulo {
+    width: 20px;
+    height: 20px;
+    background-color: #999;
+    border-radius: 50%;
+    position: absolute;
+}
